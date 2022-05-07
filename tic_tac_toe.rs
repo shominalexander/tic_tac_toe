@@ -84,6 +84,8 @@ fn main(){
  let mut occupied: [[usize; 2]; 9] = [[0usize; 2 ]; 9];
  let mut usize   : [ usize; 2]     = [0usize; 2]      ;
 
+ show(game);
+ 
  for step in 0..9{
   if step%2 == 1 { cell = 'x'; }else{ cell = '0'; } 
 
